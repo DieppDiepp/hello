@@ -22,3 +22,11 @@ So when you move to the different folder you have the different repository' acee
 Step 1: Change the code, file as your expectation
  + Step 2: Like the above Step 3
  + Step 3: end!
+
+ Khi bạn sử dụng lệnh `git checkout <commit_hash> -- <file>` để khôi phục một tệp từ một commit cụ thể, tệp đó sẽ được khôi phục về trạng thái mà nó có tại thời điểm của commit đó. 
+
+Khi bạn chạy lệnh `git log`, Git sẽ hiển thị danh sách các commit, mỗi commit sẽ có một mã hash duy nhất. Để xác định lần commit cụ thể mà bạn muốn khôi phục từ, bạn cần biết mã hash của commit đó.
+
+Ví dụ, nếu bạn muốn khôi phục một tệp từ commit thứ 4 trong lịch sử commit của dự án, bạn cần biết mã hash của commit thứ 4 và sử dụng lệnh `git checkout <commit_hash> -- <file>` với commit đó. 
+
+Tóm lại, bạn cần xác định mã hash của commit mà bạn muốn khôi phục từ để biết được tệp sẽ được khôi phục về trạng thái tại lần commit đó.
