@@ -20,4 +20,5 @@ So when you move to the different folder you have the different repository' acee
 # GUIDE TO MODIFY FILE
 
 Step 1: Change the code, file as your expectation
-Step 2: Like the above Step 3
+ + Step 2: Like the above Step 3
+ + Step 3: end!
